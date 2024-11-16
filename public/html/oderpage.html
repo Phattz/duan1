@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="../css/all.css">
+<link rel="stylesheet" href="../css/categoryAdmin.css">
+</head>
+<body>
+  <div class="grid container">
+  <div class="row">
+
+      <div class="col l-2 st">
+           <div class="category-menu">
+              <img src="../image/logo.png" width="100px" height="100px">
+              <h2>Trạm Nhỏ Xinh</h2>
+              <ul>
+                  <li>Danh mục</li>
+                  <li>Sản phẩm</li>
+                  <li>Người dùng</li>
+                  <li>Đơn hàng</li>
+                  <li>Bài viết</li>
+                  <li>Bình luận</li>
+                  <li>Phản hồi</li>
+                  <li>Nhắn tin</li>
+              </ul>
+          </div>
+      </div>
+      <div class="col l-10 ts">
+        <div class="header-allpage">
+            <img src="../image/logo.png" width="57px" height="57px">
+            <p>Admin</p>
+        </div>
+        <div class="main">
+          <div class="main-category">
+              <div class="main-danhmuc">
+                  <p>Đơn hàng</p>
+              </div>
+              <div class="main-header">
+                  <div class="left-main-header">
+                      <p>Đã chọn 3 mục</p>
+                      <a href="">Xóa</a>
+                  </div>
+                  <div class="right-main-header">
+                      <input type="text" placeholder="Tìm kiếm">
+                      <div class="filter"><i class="fa-solid fa-filter"></i></div>
+                      <div class="sort"><i class="fa-solid fa-arrow-down-a-z"></i></div>
+                  </div>
+              </div>
+          </div>
+          <div class="main-product">
+            <table>
+                <thead>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>ID</th>
+                        <th>Tên người dùng</th>
+                        <th>Địa chỉ</th>
+                        <th>số điện thoại</th>
+                        <th>ngày tạo đơn</th>
+                        <th>Ghi chú</th>
+                        <th>Trạng thái</th>
+                        <th>Xem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 1 box -->
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>#1234</td>
+                        <td>người dùng 1</td>
+                        <td>Địa chỉ</td>
+                        <td>số điện thoại</td>
+                        <td>20/11/2025</td>
+                        <td>ghi chú</td>
+                        <td><span class="status success">Đã giao hàng</span></td>
+                        <td>Xem</td>
+                    </tr>
+                    <!-- 1 box -->
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>#1234</td>
+                        <td>người dùng 2</td>
+                        <td>Địa chỉ</td>
+                        <td>số điện thoại</td>
+                        <td>20/11/2025</td>
+                        <td>ghi chú</td>
+                        <td><span class="status pending">Đang vận chuyển</span></td>
+                        <td>Xem</td>
+                    </tr>
+                    <!-- 1 box -->
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>#1234</td>
+                        <td>người dùng 3</td>
+                        <td>Địa chỉ</td>
+                        <td>số điện thoại</td>
+                        <td>20/11/2025</td>
+                        <td>ghi chú</td>
+                        <td><span class="status danger">Hủy đơn hàng</span></td>
+                        <td>Xem</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+          <div class="main-turnpage">
+            <button class="prev">1</button>
+            <button class="next">2</button>
+            <button class="nextpage">></button>
+          </div>
+        </main> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>

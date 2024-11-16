@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid {
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav {
+    background: #f4f4f4;
+    padding: 5px;
+
+  }
+  
+  nav ul {
+   
+    line-height: 60px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }  
+  main {
+    margin: 50px 80px;
+  height: 300px;
+  width: 900px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  .search-tools {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .search-tools input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .search-tools button {
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .status.success {
+    background-color: #4caf50;
+  }
+  
+  .status.pending {
+    background-color: #ff9800;
+  }
+  
+  .status.danger {
+    background-color: #f44336;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  .search-tools {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    float: right;
+  }
+  .pagination button {
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  .product-image {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .back-button {
+   
+    background-color: #b5928d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .col.c-10 main {
+    width: 90%;
+    margin: auto; /* Centers the table within the container */
+}.main-turnpage{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10px;
+}
+
+.main-turnpage .prev{
+  padding: 5px 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 3px solid #8D6E6E;
+  background-color: #8D6E6E;
+  color: #FFFFFF;
+}
+
+.main-turnpage .next{
+  padding: 5px 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 3px solid #8D6E6E;
+}
+
+.main-turnpage .nextpage{
+  border: none;
+  font-size: 30px;
+  padding: 0;
+  background-color: white;
+  color: #8D6E6E;
+  font-weight: 600;
+}
